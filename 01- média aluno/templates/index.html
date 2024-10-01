@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aluno</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+
+</head>
+
+<body>
+    <nav class="cabecalho">
+        <a  href="/ver_nota">Ver notas</a>
+        <a href="/">Lançar notas</a>
+        
+    </nav>
+    
+    <div class="lan_notas">
+        <form action="/index.html" method="post" class="lan_notas">
+            <h2 class="media">Média do aluno</h2>
+
+            <label class="nomee" for="" >Nome do aluno:</label> <!-- é usado para associar rótulos a elementos de formulário-->
+            <input class="nome" name="nome_aluno" id="nome_aluno"> <br>  <!--Input serve para que o usuário insira dados -->
+
+            <label class="nota_umm">Nota 1:</label>
+            <input class="nota_um" name="nota_um" id="nota_um"> 
+
+            <label class="nota_doiss" >Nota 2:</label>
+            <input class="nota_dois" name="nota_dois" id="nota_dois"> 
+
+            <label class="nota_tress" >Nota 3:</label>
+            <input class="nota_tres" name="nota_tres" id="nota_tres"> 
+
+            <div>
+                <button type="submit" class="lançar" >Lançar</button> 
+            </div>
+        </form>
+    <div>
+     <img class="Star" src="/static/assets/Clip path group.png">
+    </div>
+     </div>
+</body>
+</html>

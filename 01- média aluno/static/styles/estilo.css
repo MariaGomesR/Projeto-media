@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-primaria: Chewy;
+    --font-secundaria: Montserrat;
+    --cor-one: #f4d3da; /*cor fundo*/
+    --cor-two: #f4727a; /*cor cabeçalho*/
+    --cor-tree: #f6bbc1; /*cor botão*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-one);
+}
+
+nav {
+    background-color: var(--cor-two);
+    text-align: right;
+    
+
+}
+ 
+nav a {
+    color: black;
+    text-decoration: underline;
+    font-family: var(--font-primaria);
+    font-size: 22px;
+    margin: 0 30px;
+    text-align: right;
+    font-size: 30px;
+    top: 50px;
+}
+ 
+nav :hover {
+     color: white;
+  
+}
+
+.lan_notas{
+    font-family: var(--font-secundaria);
+    color: black;
+    font-size: 30px;
+    padding: auto;
+    font-weight: bold;
+
+}
+
+.media{
+    font-family: var(--font-primaria);
+    top: 20px;
+    position: relative;
+    right: -660px;
+    font-size: 40px;
+    
+}
+.nome{
+    left: 400px;
+    position: relative;
+    font-family: var(--font-secundaria);
+    border-radius: 40px;
+    padding: 15px;
+    background-color: #f6bbc1;
+    border-color: #f6bbc1;
+    width:300px;
+    top: 50px;
+}
+.nomee{
+    left: 400px;
+    position: relative;
+    font-family: var(--font-secundaria);
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 15px;
+    top: 50px;
+    
+}
+.nota_tres{
+    left:500px;
+    position: relative;
+    top: 90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+    background-color: #f6bbc1;
+   
+    
+   
+}
+.nota_tress{
+    left:500px;
+    position: relative;
+    top: 90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+
+}
+
+.nota_doiss{
+    left:300px;
+    position:relative;
+    top:90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+    
+
+}
+
+.nota_dois{
+    left:300px;
+    position:relative;
+    top:90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+    background-color: #f6bbc1;
+
+}
+
+.nota_um{
+    left:150px;
+    position:relative;
+    top:90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+    background-color: #f6bbc1;
+    
+}
+
+.nota_umm{
+    left:150px;
+    position:relative;
+    top:90px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    padding: 10px;
+}
+
+.lançar{
+    left:700px;
+    position:relative;
+    top:200px;
+    border-radius: 40px;
+    border-color: #f6bbc1;
+    font-family: var(--font-primaria);
+    padding: 10px;
+    background-color: #f6bbc1;
+    font-size: 20px;
+}
+
+.lançar:hover{
+    padding: 10px 10px;
+    color: white;
+}
+.Star{
+    position: relative;
+    top: -170px;
+    left: 600px;
+}
+
+
+
+
+.ver_notas {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.ver_notas h2 {
+    font-family: var(--font-primaria);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.ver_notas_tabela {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: var(--fonte-primaria);
+}
+
+.ver_notas_tabela th, .ver_notas_tabela td {
+    border: 1px solid rgb(212, 127, 127);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ver_notas_tabela th {
+    background-color: var(--cor-two);
+    font-weight: 600;
+}
+
+.ver_notas_tabela td {
+    background-color: #f9f9f9;
+}
+
+.ver_notas_tabela tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.ver_notas_tabela tr:hover {
+    background-color: var(--cor-two);
+}
+
+.link_aluno{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.link_aluno:hover{
+    border-radius: 10px;
+    animation-name: cor_link;
+    animation-duration: 1s;
+    background-color: var(--cor-two);
+}
+
+@keyframes cor_link {
+    from {background-color: var(--cor-tree)}
+    to {background-color: var(--cor-two);}
+}
